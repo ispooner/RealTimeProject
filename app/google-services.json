@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "293880511908",
+    "firebase_url": "https://realtimeproject-265113.firebaseio.com",
+    "project_id": "realtimeproject-265113",
+    "storage_bucket": "realtimeproject-265113.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293880511908:android:eca2ea2c95452ac0295531",
+        "android_client_info": {
+          "package_name": "com.illicitintelligence.realtimeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293880511908-h2sb7b6toqf998vjukp4f8flp212mvbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.illicitintelligence.realtimeproject",
+            "certificate_hash": "163a8dfe21b3b6af3b9afd15b6cb5ddbb49672e7"
+          }
+        },
+        {
+          "client_id": "293880511908-tilks8ndoitag92eu34ccjs75v18mahs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmmr1hCopAzuK3YV_NgDJ1uItyqhULngs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293880511908-tilks8ndoitag92eu34ccjs75v18mahs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
