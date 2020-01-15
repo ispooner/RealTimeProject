@@ -42,4 +42,12 @@ class RealViewModelK(application: Application) : AndroidViewModel(application) {
         }
     }
 
+    fun getMessageMutable() : MutableLiveData<List<Message>> {
+        return messageMutable
+    }
+
+    fun getErrorMutable() : MutableLiveData<Error> {
+        return errorMutable
+    }
+
 }
