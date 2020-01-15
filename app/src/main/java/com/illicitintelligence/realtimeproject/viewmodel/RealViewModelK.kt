@@ -1,6 +1,7 @@
 package com.illicitintelligence.realtimeproject.viewmodel
 
 import android.app.Application
+import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import com.google.firebase.database.*
@@ -22,6 +23,7 @@ class RealViewModelK(application: Application) : AndroidViewModel(application) {
             }
 
             override fun onDataChange(p0: DataSnapshot) {
+                Log.d("Tag_F", "Triggered first time")
                 if(!p0.hasChildren()) {
                     errorMutable.postValue(Error("Firebase", "The object is empty"))
                 }
@@ -34,6 +36,10 @@ class RealViewModelK(application: Application) : AndroidViewModel(application) {
         })
 
     }
+
+//    fun getMessages() {
+//        messageReference.startAt(0.0).
+//    }
 
     fun sendRealMessage(message: Message) {
         val childKey = messageReference.push().key
