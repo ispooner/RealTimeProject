@@ -8,7 +8,10 @@ public class Message {
     private String messageContent;
 
     public Message() {
-
+        messageTitle = "Fake";
+        messageDate = "Fake";
+        username = "Fake";
+        messageContent = "Fake";
     }
 
     public Message(String messageTitle, String messageDate, String username, String messageContent) {
